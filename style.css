@@ -1,0 +1,105 @@
+/* Layout */
+.main {
+    display: flex;
+    padding: 2em;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    max-height: 100vh;
+    min-width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.clockbox,
+#clock {
+    width: 100%;
+}
+
+/* Start Clock styling */
+.circle {
+    fill: none;
+    stroke: blueviolet;
+    stroke-width: 10;
+    stroke-miterlimit: 10;
+}
+
+.mid-circle {
+    fill: #000;
+}
+.hour-marks {
+    fill: none;
+    stroke: gray;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+}
+
+.hour-arm {
+    fill: none;
+    stroke: #000;
+    stroke-width: 10;
+    stroke-miterlimit: 10;
+}
+
+.minute-arm {
+    fill: none;
+    stroke: #000;
+    stroke-width: 5;
+    stroke-miterlimit: 10;
+}
+
+.second-arm {
+    fill: none;
+    stroke: #000;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+}
+
+/* Transparent box ensuring arms center properly. */
+.sizing-box {
+    fill: none;
+}
+
+/* Make all arms rotate around the same center point. */
+/* Optional: Use transition for animation. */
+#hour,
+#minute,
+#second {
+    transform-origin: 300px 300px;
+    /* transition: transform .6s ease-in-out; */ /*This transition gives the clock a smooth ticking animation but disrupts the flow of the clock in a clockwise manner. In order to avoid this, we comment out the transition and stick to the traditional ticking clock semantics. */
+}
+/* Start bcgHex color */
+.hexColor{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 300px;
+    text-transform: capitalize;
+    display: block;
+}
+
+.hex{
+    font-size: 1.8rem;
+}
+
+.hexBtn{
+    padding: 10px 10px;
+    margin: 5px 10px;
+    background-color: blueviolet;
+    border: 7px;
+    box-shadow: 0 4px 8px 0 rgba(99, 96, 96, 0.2), 0 6px 20px 0 rgba(36, 34, 34, 0.19);
+    border-radius: 7px;
+    font-size: 2rem;
+    font-weight: 500px;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: none;
+}
+
+.hexBtn:hover{
+    background: gray;
+}
