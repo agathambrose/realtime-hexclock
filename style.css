@@ -103,6 +103,7 @@ body{
     text-transform: capitalize;
     cursor: pointer;
     outline: none;
+    overflow: hidden;
 }
 
 .hexBtn:hover{
