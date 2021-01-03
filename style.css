@@ -7,10 +7,10 @@
 }
 
 body{
-    max-height: 100vh;
-    min-width: 90vw;
+    min-height: 100vh;
+    /* min-width: 90vw; */
     display: flex;
-    justify-content: center;
+    justify-content: middle;
     align-items: center;
     background-color: gray;
 }
