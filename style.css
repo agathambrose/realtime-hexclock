@@ -84,6 +84,7 @@ body{
     font-size: .8rem;
     font-weight: 200px;
     text-transform: capitalize;
+    text-align: center;
     display: inline-block;
 }
 
