@@ -21,9 +21,9 @@ body{
 
 .clockbox,
 #clock {
-    width: 100%;
-    height: 100%;
-    margin-right: 40px;
+    width: 150%;
+    /* height: 100%; */
+    margin-right: 30px;
 }
 
 /* Start Clock styling */
