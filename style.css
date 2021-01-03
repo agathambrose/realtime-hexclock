@@ -1,20 +1,18 @@
-body, .main {
+body{
+    min-height: 100vh;
+    max-width: 90vw;
     display: flex;
-    min-height: 90vh;
-    min-width: 50vw;
-    justify-content: middle;
+    justify-content: center;
     align-items: center;
     background-color: gray;
-
 }
 
-/* body{
-    min-height: 100vh;
-    min-width: 90vw;
+.main {
     display: flex;
     justify-content: middle;
     align-items: center;
-} */
+
+}
 
 .container{
     /* text-align: justify;
@@ -25,7 +23,7 @@ body, .main {
 .clockbox,
 #clock {
     width: 150%;
-    margin-right: 40px;
+    margin-right: 50px;
 }
 
 /* Start Clock styling */
@@ -83,14 +81,14 @@ body, .main {
 /* Start bcgHex color */
 .hexColor{
     color: white;
-    font-size: 1rem;
-    font-weight: 300px;
+    font-size: .8rem;
+    font-weight: 200px;
     text-transform: capitalize;
-    display: block;
+    display: inline-block;
 }
 
 .hex{
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 .hexBtn{
@@ -100,7 +98,7 @@ body, .main {
     border: 7px;
     box-shadow: 0 4px 8px 0 rgba(99, 96, 96, 0.2), 0 6px 20px 0 rgba(36, 34, 34, 0.19);
     border-radius: 7px;
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 500px;
     text-transform: capitalize;
     cursor: pointer;
