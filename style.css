@@ -1,23 +1,24 @@
-.main {
+body, .main {
     display: flex;
-    padding: 2em;
-    height: 90vh;
-    justify-content: center;
-    align-items: center;
-}
-
-body{
-    min-height: 100vh;
-    /* min-width: 90vw; */
-    display: flex;
+    min-height: 90vh;
+    min-width: 50vw;
     justify-content: middle;
     align-items: center;
     background-color: gray;
+
 }
 
+/* body{
+    min-height: 100vh;
+    min-width: 90vw;
+    display: flex;
+    justify-content: middle;
+    align-items: center;
+} */
+
 .container{
-    text-align: justify;
-    display: inline-block;
+    /* text-align: justify;
+    display: inline-block; */
     margin-left: 15px;
 }
 
