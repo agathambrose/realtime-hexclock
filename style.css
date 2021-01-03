@@ -115,13 +115,13 @@ body{
 @media only screen and (min-width: 768px){
     .clockbox, #clock{
     width: 100%;
-    margin-right: 50px;
+    margin-right: 4rem;
     margin-left: 50px;
     }
 
     .hexColor, .hexBtn{
         font-size: 2.5rem;
-        margin-left: 50px;
+        margin-left: 4rem;
     }
 
     .hex{
@@ -135,13 +135,13 @@ body{
 @media only screen and (min-width: 768px){
     .clockbox, #clock{
     width: 120%;
-    margin-right: 50px;
+    margin-right: 4rem;
     margin-left: 50px;
     }
 
     .hexColor, .hexBtn{
         font-size: 2rem;
-        margin-left: 50px;
+        margin-left: 4rem;
     }
 
     .hex{
