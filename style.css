@@ -115,7 +115,7 @@ body{
 @media only screen and (min-width: 768px){
     .clockbox, #clock{
     width: 100%;
-    margin-right: 40px;
+    margin-right: 0 40px;
     }
 
     .hexColor, .hex, .hexBtn{
@@ -129,7 +129,7 @@ body{
 @media only screen and (min-width: 768px){
     .clockbox, #clock{
     width: 120%;
-    margin-right: 40px;
+    margin-right: 0 40px;
     }
 
     .hexColor, .hex, .hexBtn{
