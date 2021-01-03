@@ -16,12 +16,12 @@ body{
 .container{
     /* text-align: justify;
     display: inline-block; */
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 .clockbox,
 #clock {
-    width: 150%;
+    width: 120%;
     /* height: 100%; */
     margin-right: 30px;
 }
