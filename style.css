@@ -11,7 +11,6 @@ body{
     display: flex;
     justify-content: middle;
     align-items: center;
-
 }
 
 .container{
@@ -93,7 +92,7 @@ body{
 
 .hexBtn{
     padding: 10px 10px;
-    margin: 5px 10px;
+    margin: 5px 5px;
     background-color: blueviolet;
     border: 7px;
     box-shadow: 0 4px 8px 0 rgba(99, 96, 96, 0.2), 0 6px 20px 0 rgba(36, 34, 34, 0.19);
